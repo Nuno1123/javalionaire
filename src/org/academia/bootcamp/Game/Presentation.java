@@ -1,5 +1,7 @@
 package org.academia.bootcamp.Game;
 
+import org.academia.bootcamp.GameBeforeRefactor.Field;
+import org.academia.bootcamp.GameBeforeRefactor.Question;
 import org.academiadecodigo.simplegraphics.mouse.Mouse;
 import org.academiadecodigo.simplegraphics.mouse.MouseEvent;
 import org.academiadecodigo.simplegraphics.mouse.MouseEventType;
@@ -7,30 +9,35 @@ import org.academiadecodigo.simplegraphics.mouse.MouseHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 /**
- * Created by Nuno1123 on 10/03/16.
+ * Created by dora on 19-04-2016.
  */
-public class Answer5 implements MouseHandler{
+public class Presentation implements MouseHandler {
 
-    Question6 question6;
+    private Game game = new Game();
 
     private boolean mouseClicked = false;
+    Picture presentation = new Picture(10, 10, "Resources/presentation.jpg");
 
-    Picture answer5 = new Picture(10, 10, "Resources/answer5.png");
 
+    public Presentation() {
 
-    public Answer5() {
+        Field.init();
+        presentation.draw();
 
     }
 
 
-    public void a5(){
+    public boolean isMouseClicked() {
+        return mouseClicked;
+    }
+
+    public void init(){
+
         Mouse mouse = new Mouse(this);
         mouse.addEventListener(MouseEventType.MOUSE_CLICKED);
 
-        question6 = new Question6();
-        answer5.draw();
-    }
 
+    }
 
     @Override
     public void mouseClicked(MouseEvent mouseEvent) {
@@ -41,15 +48,14 @@ public class Answer5 implements MouseHandler{
         }
     }
 
-    @Override
-    public void mouseMoved(MouseEvent mouseEvent) {
-
+    private void click(){
+        presentation.delete();
+        game.init();
     }
 
-    private void click(){
 
-                answer5.delete();
-                question6.q6();
+    @Override
+    public void mouseMoved(MouseEvent mouseEvent) {
 
     }
 }

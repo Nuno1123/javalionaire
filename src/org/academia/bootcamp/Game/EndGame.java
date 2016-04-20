@@ -8,17 +8,11 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 public class EndGame{
 
 
-    Picture endGame = new Picture(10, 10, "Resources/endGame.png");
+    Picture endGame = new Picture(10, 10, "endGame.png");
 
     public EndGame() {
 
-    }
-
-
-
-    public void e1(){
         endGame.draw();
-
     }
 
 }
