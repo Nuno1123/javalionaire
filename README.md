@@ -9,6 +9,10 @@ What was meant to be a way to pass out the fireball, turned out to be a very pos
 Gameplay
 --------
 
-To print the next screen, click anywhere with mouse.
-To ring bell, Player 1's key - **Q**; Player's 2 key: **SPACE**; Player's 3 key: **P**.
+To print the next screen, Q&A, mouse click anywhere.
+
+To ring bell:
+  * Player 1's key - **Q**; 
+  * Player's 2 key: **SPACE**; 
+  * Player's 3 key: **P**.
 
