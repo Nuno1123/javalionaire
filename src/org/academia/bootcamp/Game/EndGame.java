@@ -8,7 +8,7 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 public class EndGame{
 
 
-    Picture endGame = new Picture(10, 10, "endGame.png");
+    Picture endGame = new Picture(10, 10, "resources/endGame.png");
 
     public EndGame() {
 

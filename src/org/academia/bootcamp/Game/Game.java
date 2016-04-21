@@ -129,7 +129,7 @@ public class Game implements MouseHandler, KeyboardHandler {
                     pressedBell.draw();
                     setRang(true);
                     setClicked(false);
-                    Sound.play("/pig.wav");
+                    Sound.play("/resources/pig.wav");
                     break;
 
                 case KeyboardEvent.KEY_SPACE:
@@ -137,7 +137,7 @@ public class Game implements MouseHandler, KeyboardHandler {
                     pressedBell.draw();
                     setRang(true);
                     setClicked(false);
-                    Sound.play("/horse.wav");
+                    Sound.play("/resources/horse.wav");
                     break;
 
                 case KeyboardEvent.KEY_P:
@@ -145,7 +145,7 @@ public class Game implements MouseHandler, KeyboardHandler {
                     pressedBell.draw();
                     setRang(true);
                     setClicked(false);
-                    Sound.play("/elephant.wav");
+                    Sound.play("/resources/elephant.wav");
                     break;
             }
         }

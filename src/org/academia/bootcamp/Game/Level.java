@@ -14,19 +14,21 @@ public class Level {
 
     public static List<Picture> qANDaList = new ArrayList<>();
 
-    private Picture[] questions = {new Picture(10, 10, "question1.png"),
-            new Picture(10, 10, "question2.png"),
-            new Picture(10, 10, "question3.png"),
-            new Picture(10, 10, "question4.png"),
-            new Picture(10, 10, "question5.png"),
-            new Picture(10, 10, "question6.png")};
+    private Picture[] questions = {
+            new Picture(10, 10, "resources/question1.png"),
+            new Picture(10, 10, "resources/question2.png"),
+            new Picture(10, 10, "resources/question3.png"),
+            new Picture(10, 10, "resources/question4.png"),
+            new Picture(10, 10, "resources/question5.png"),
+            new Picture(10, 10, "resources/question6.png")};
 
-    private Picture[] answers = {new Picture(10, 10, "answer1.png"),
-            new Picture(10, 10, "answer2.png"),
-            new Picture(10, 10, "answer3.png"),
-            new Picture(10, 10, "answer4.png"),
-            new Picture(10, 10, "answer5.png"),
-            new Picture(10, 10, "answer6.png")};
+    private Picture[] answers = {
+            new Picture(10, 10, "resources/answer1.png"),
+            new Picture(10, 10, "resources/answer2.png"),
+            new Picture(10, 10, "resources/answer3.png"),
+            new Picture(10, 10, "resources/answer4.png"),
+            new Picture(10, 10, "resources/answer5.png"),
+            new Picture(10, 10, "resources/answer6.png")};
 
     public Level() {
         addQandAToList();

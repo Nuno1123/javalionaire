@@ -15,7 +15,7 @@ public class Presentation implements MouseHandler {
     private Game game = new Game();
 
     private boolean mouseClicked = false;
-    Picture presentation = new Picture(10, 10, "presentation.jpg");
+    Picture presentation = new Picture(10, 10, "resources/presentation.jpg");
 
 
     public Presentation() {

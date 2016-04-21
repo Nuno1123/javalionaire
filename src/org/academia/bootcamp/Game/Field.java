@@ -25,7 +25,7 @@ public final class Field {
     public static void init() {
 
         // Create the GUI
-        Picture pic = new Picture(10, 10, "javalionaire_background.jpg");
+        Picture pic = new Picture(10, 10, "resources/javalionaire_background.jpg");
 
         pic.draw();
 
