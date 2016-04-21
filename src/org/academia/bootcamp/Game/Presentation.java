@@ -1,7 +1,6 @@
 package org.academia.bootcamp.Game;
 
-import org.academia.bootcamp.GameBeforeRefactor.Field;
-import org.academia.bootcamp.GameBeforeRefactor.Question;
+
 import org.academiadecodigo.simplegraphics.mouse.Mouse;
 import org.academiadecodigo.simplegraphics.mouse.MouseEvent;
 import org.academiadecodigo.simplegraphics.mouse.MouseEventType;
@@ -16,7 +15,7 @@ public class Presentation implements MouseHandler {
     private Game game = new Game();
 
     private boolean mouseClicked = false;
-    Picture presentation = new Picture(10, 10, "Resources/presentation.jpg");
+    Picture presentation = new Picture(10, 10, "presentation.jpg");
 
 
     public Presentation() {
