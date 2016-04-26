@@ -10,8 +10,11 @@ public class EndGame{
 
     Picture endGame = new Picture(10, 10, "resources/endGame.png");
 
+
+    //constructor
     public EndGame() {
 
+        //draws the game over image
         endGame.draw();
     }
 
